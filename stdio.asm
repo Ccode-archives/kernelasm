@@ -10,7 +10,8 @@ print:
   mov [eax], edx ; put given byte at address
   
   add eax, 1 ; find coloring byte
-  mov [eax], 0x07 ; set character color grey
+  mov ecx, 0x07
+  mov [eax], ecx ; set character color grey
   
   ret
 
