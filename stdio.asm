@@ -17,4 +17,4 @@ print:
 
 
 section .data
-  vidptr: dw 0xb8000
+  vidptr: dd 0xb8000
